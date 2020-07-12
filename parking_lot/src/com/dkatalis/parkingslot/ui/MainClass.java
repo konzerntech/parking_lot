@@ -26,7 +26,9 @@ public static void main(String[] args) {
 
 private void start() {
 	
-	Ticket ticket = new Ticket();
+	ReadInput.readInputFile();
+	
+/*	Ticket ticket = new Ticket();
 	ticket.setRegistrationNumber("KA-01-HH-1234");
 	
 	Ticket ticket2 = new Ticket();
@@ -93,7 +95,7 @@ private void start() {
 	
 	p.status();
 	
-	System.out.println();
+	System.out.println();*/
 	
 }
 	
