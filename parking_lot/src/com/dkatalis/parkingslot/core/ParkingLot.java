@@ -51,8 +51,8 @@ public abstract class ParkingLot<E> {
 		
 	}
 	
-	public E getData() {
-		return (E) data;
+	public E[] getData() {
+		return this.data;
 	}
 	
 	public void print() {
@@ -83,9 +83,9 @@ public abstract class ParkingLot<E> {
 		return false;
 	}
 
-	private boolean isFull() {
+	protected boolean isFull() {
 
-		if (MAX_LOT_CAPACITY == allocationCount + 1) {
+		if (MAX_LOT_CAPACITY == allocationCount) {
 			return true;
 		}
 

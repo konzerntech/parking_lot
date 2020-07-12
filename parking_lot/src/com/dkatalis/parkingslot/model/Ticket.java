@@ -4,7 +4,7 @@
 package com.dkatalis.parkingslot.model;
 
 /**
- * @author Apple
+ * @author Nijesh
  *
  */
 public class Ticket {
@@ -62,12 +62,6 @@ public class Ticket {
 		this.charge = charge;
 	}
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
 
 }
