@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author Apple
+ * @author Nijesh
  *
  */
 package com.dkatalis.parkingslot.model;
